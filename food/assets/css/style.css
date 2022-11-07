@@ -1,0 +1,50 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-image: url('../image/Gradient_Light_color_Background_Vector_Graphi_generated.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  
+}
+
+h1, h2, h3, h4, .table-title {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.table-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.phoots {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.phoot-card img {
+    width: 300px;
+}
+
+.phoot-card {
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.phoot-card p {
+    padding: 10px 20px;
+}
