@@ -53,61 +53,53 @@
   Examples: a) `let x = 10;
 let y = 3;
 console.log(x + y)`
-  b) ```console.log(x - y)
-
-````
+  b) `console.log(x - y)
+`
 
 - Assignment Operators
-Example: a) `let x = 10;
+  Example: a) `let x = 10;
 `
-b) `x = x + 1
+  b) `x = x + 1
 `
 - Comparison Operators
-Example: a) `
-let x = 3;
+  Example: a) `let x = 3;
 console.log( x >  0)`
-b) `
-console.log(x === 1);`
+  b) `console.log(x === 1);`
 - Logical Operators
-Example: a) ```
-console.log(true && true);
-console.log (false && true);
-````
+  Example: a) `console.log(true && true);
+console.log (false && true);`
 
-b) ```
+b) `
 console.log(true || true);
 console.log(false || true);
 
-````
+`
+
 - Bitwise Operators
-Example: a) ```
-let a = 30; //00000000000000000000000000011110
-let b =  6; //00000000000000000000000000000110
+  Example: a) `
+  let a = 30; //00000000000000000000000000011110
+  let b = 6; //00000000000000000000000000000110
 
 console.log(a & b); //00000000000000000000000000000110 (6)
 
-````
+`
 
 b)
 
-```
+`
 let a = 30; //00000000000000000000000000011110
-let b =  5; //00000000000000000000000000000101
+let b = 5; //00000000000000000000000000000101
 
 console.log(a | b); //00000000000000000000000000011111 (31)
-```
+`
 
 4. What is the result when the following program is executed?
 
-```
-for(let i = 1; i < 20; i += 7) {
+`for(let i = 1; i < 20; i += 7) {
     console.log(i);
-}
-```
+}`
 
-Answer: ```
+Answer: `
 1, 8, 15
 
-```
-
-```
+`
