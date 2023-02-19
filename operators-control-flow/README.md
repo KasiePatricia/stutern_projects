@@ -5,39 +5,38 @@
 1. List the symbols for each of the below Javascript operators
 
 - Arithmetic Operators
-  Examples of Arithmetic Operators:
-  Addition Operator (+)
-  Subtraction Operator (-)
-  Multiplication Operator (\*)
-  Exponentiation Operator (\*\*)
-  Division Operator (/)
-  Modulus Operator (Division Remainder) (%)
-  Pre-Increment Operator (++x)
-  Post-Increment Operator (x++)
-  Pre-Decrement Operator (--x)
-  Post-Decrement Operator (x--)
+  - Addition Operator (+)
+  - Subtraction Operator (-)
+  - Multiplication Operator (\*)
+  - Exponentiation Operator (\*\*)
+  - Division Operator (/)
+  - Modulus Operator (Division Remainder) (%)
+  - Pre-Increment Operator (++x)
+  - Post-Increment Operator (x++)
+  - Pre-Decrement Operator (--x)
+  - Post-Decrement Operator (x--)
 
 * Assignment Operators
-  Assignment (=)
-  Addition Assignment (+=)
-  Subtraction Assignment (-=)
-  Multiplication Assignment (\*=)
-  Exponentiation Assignment (\*\*=)
-  Division Assignment (/=)
-  Modulus Assignment (%=)
+  - Assignment (=)
+  - Addition Assignment (+=)
+  - Subtraction Assignment (-=)
+  - Multiplication Assignment (\*=)
+  - Exponentiation Assignment (\*\*=)
+  - Division Assignment (/=)
+  - Modulus Assignment (%=)
 * Comparison Operators
-  Equals Comparison Operator (==)
-  Identical Operator(Strict equality) (===)
-  Not Equal (!=)
-  Not Identical Operator (!==)
-  Less Than (<)
-  Greater Than (>)
-  Less or equal to (<=)
-  Greater Than or equal to (>=)
+  - Equals Comparison Operator (==)
+  - Identical Operator(Strict equality) (===)
+  - Not Equal (!=)
+  - Not Identical Operator (!==)
+  - Less Than (<)
+  - Greater Than (>)
+  - Less or equal to (<=)
+  - Greater Than or equal to (>=)
 * Logical Operators
-  AND Operator (&&)
-  Logical OR Operator (||)
-  Logical NOT Operator (!)
+  - AND Operator (&&)
+  - Logical OR Operator (||)
+  - Logical NOT Operator (!)
 * Bitwise Operators
   - Bitwise AND Operator (&)
   - Bitwise OR Operator (|)
@@ -64,6 +63,7 @@
     ```
 
 - Assignment Operators
+
   - Example:
   - a)
     ```
@@ -74,7 +74,7 @@
     x = x + 1;
     ```
 
-* Comparison Operators
+- Comparison Operators
   - Example:
   - a)
     ```
@@ -85,20 +85,22 @@
     ```
     console.log(x === 1);
     ```
+
 * Logical Operators
+
   - Example:
   - a)
+
     ```
     console.log(true && true);
     console.log (false && true);
     ```
 
-- b)
-
-  ```
-  console.log(true || true);
-  console.log(false || true);
-  ```
+  - b)
+    ```
+    console.log(true || true);
+    console.log(false || true);
+    ```
 
 - Bitwise Operators
 
@@ -112,7 +114,7 @@
     console.log(a & b); //00000000000000000000000000000110 (6)
     ```
 
-    - b)
+  - b)
 
     ```
     let a = 30; //00000000000000000000000000011110
