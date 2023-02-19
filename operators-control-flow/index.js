@@ -30,7 +30,7 @@ if(classGroup === "Science") {
 
 
 // Output the subjects
-console.log("Your subjects are:- " +  subjects.join(", "))
+console.log("Your subjects are:- " +  subjects.join(", "));  //Your subjects are:- Government, Economics, Literature, History, English, Mathematics 
 
 
 /*Question 5
@@ -60,5 +60,5 @@ function findNearestPowerOf2(num) {
   
   const num = 50;
   const pwr = findNearestPowerOf2(num);
-  console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`);
+  console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`); //The number 64 is the power of 2 nearest to 50.
   
