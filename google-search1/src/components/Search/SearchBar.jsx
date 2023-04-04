@@ -17,10 +17,8 @@ const SearchBar = () => {
 
   const handleKeyPress = (event) => {
     if (event.key === "Enter") {
-      console.log(event.target.value);
       setDivContent(InputValue);
-      // Perform the desired action, for example submitting a form
-      console.log("Enter key pressed!");
+      setInputValue("");
     }
   };
 
@@ -43,7 +41,7 @@ const SearchBar = () => {
           })}
         </div>
       </div>
-      <div className="my-3">
+      <div className="mt-3">
         <p className="text-center">{divContent}</p>
       </div>
     </div>
