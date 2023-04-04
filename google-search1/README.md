@@ -3,7 +3,11 @@
 ### Components
 
 - Header components
-  - Test component
+  - Text component
   - image component
 - Search components
 - Footer components
+
+## Hosted link
+
+https://stutern-projects-sigma.vercel.app/

@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./components/Header/Header";
+import Search from "./components/Search/Search";
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Header />
+      <Search />
     </div>
   );
 }
