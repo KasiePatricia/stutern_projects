@@ -1,5 +1,6 @@
 import React from "react";
 import SearchBar from "./SearchBar";
+import SearchDown from "./SearchDown";
 
 const Search = () => {
   return (
@@ -11,6 +12,7 @@ const Search = () => {
         />
       </div>
       <SearchBar />
+      <SearchDown />
     </div>
   );
 };
