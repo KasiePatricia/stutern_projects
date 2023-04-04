@@ -3,10 +3,18 @@
 ### Components
 
 - Header components
-  - Text component
+  - Header link component
   - image component
 - Search components
+  - SearchBar
+  - SearchButton
+  - SearchDown
+  - SearchIcon
+  - SearchLang
 - Footer components
+  - FooterDown
+  - FooterTop
+    -FooterIcon
 
 ## Hosted link
 

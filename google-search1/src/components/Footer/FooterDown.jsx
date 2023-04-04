@@ -1,13 +1,22 @@
 import React from "react";
+import FooterIcon from "./FooterIcon";
 
 const FooterDown = () => {
+  const footerL1 = ["About", "Advertising", "Business", "How Search works"];
+  const footerL2 = ["Privacy", "Terms", "Settings"];
+
   return (
     <div className="flex justify-between bg-[#f2f2f2] text-[#70757a] text-[0.875rem] py-[0.938rem] px-[1.875rem]">
-      <div className="flex gap-4">
+      {/* <div className="flex gap-4">
         <a href="#">About</a>
         <a href="#">Advertising</a>
         <a href="#">Business</a>
         <a href="#">How Search works</a>
+      </div> */}
+      <div className="flex gap-4">
+        {footerL1.map((item, index) => {
+          return <FooterIcon key={index} fLink={item} />;
+        })}
       </div>
       <div className="flex gap-2">
         <img
@@ -17,9 +26,9 @@ const FooterDown = () => {
         <span>Carbon neutral since 2007</span>
       </div>
       <div className="flex gap-4">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
+        {footerL2.map((item, index) => {
+          return <FooterIcon key={index} fLink={item} />;
+        })}
       </div>
     </div>
   );

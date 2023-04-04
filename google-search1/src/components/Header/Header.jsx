@@ -8,20 +8,24 @@ const Header = () => {
 
   return (
     <div className="flex justify-end pt-3 px-7 gap-3 items-center">
-      {/* <div> */}
       <div className="flex gap-2">
         {linksTo.map((item, index) => {
           return <HeaderLinks key={index} goto={item} />;
         })}
       </div>
-      {/* <div > */}
-
-      <img src={Hamburger} alt="Hamburger" className="w-[1.5rem] h-[1.5rem]" />
-      <div className="w-[2rem] h-[2rem] bg-black text-white rounded-full flex justify-center items-center">
+      <a href="#">
+        <img
+          src={Hamburger}
+          alt="Hamburger"
+          className="w-[1.5rem] h-[1.5rem]"
+        />
+      </a>
+      <a
+        href="#"
+        className="w-[2rem] h-[2rem] bg-black text-white rounded-full flex justify-center items-center"
+      >
         <p>K</p>
-        {/* </div> */}
-        {/* </div> */}
-      </div>
+      </a>
     </div>
   );
 };
