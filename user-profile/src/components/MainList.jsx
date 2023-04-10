@@ -4,7 +4,7 @@ import AList from "./AList";
 const MainList = ({ profiles, searchItem }) => {
   console.log(searchItem, "main list");
   return (
-    <div className="flex flex-wrap gap-x-6">
+    <div className="flex justify-between flex-wrap gap-x w-full">
       {profiles
         .filter(
           (profile) =>
