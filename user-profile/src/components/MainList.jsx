@@ -11,7 +11,8 @@ const MainList = ({ profiles, searchItem }) => {
             profile.firstName
               .toLowerCase()
               .includes(searchItem.toLowerCase()) ||
-            profile.lastName.toLowerCase().includes(searchItem.toLowerCase())
+            profile.lastName.toLowerCase().includes(searchItem.toLowerCase()) ||
+            profile.title.toLowerCase().includes(searchItem.toLowerCase())
         )
         .map((profile) => {
           return (
