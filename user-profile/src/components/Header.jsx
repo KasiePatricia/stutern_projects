@@ -1,11 +1,6 @@
 import React from "react";
 
 const Header = ({ searchItem, onhandleChange }) => {
-  //   const [searchTerm, setSearchTerm] = useState("");
-  //   const onhandleChange = (event) => {
-  //     setSearchTerm(event.target.value);
-  //   };
-
   return (
     <div className="">
       <input

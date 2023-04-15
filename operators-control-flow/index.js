@@ -53,12 +53,14 @@ function findNearestPowerOf2(num) {
     let pwr = 1;
     for (let i = 0; pwr <= num; i++) {
       pwr = 2 ** i;
+      console.log(pwr)
     }
     const prevPwr = pwr / 2;
+    
     return (num - prevPwr) <= (pwr - num) ? prevPwr : pwr;
   }
   
-  const num = 50;
+  const num = 4;
   const pwr = findNearestPowerOf2(num);
   console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`); //The number 64 is the power of 2 nearest to 50.
   

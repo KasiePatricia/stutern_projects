@@ -85,7 +85,7 @@ const allAboutMySchool = Object.assign({}, mySchool);
 console.log(allAboutMySchool);
 
 // c. Using JSON.parse() and JSON.stringify(): This method creates a deep copy of an object by converting it to a JSON string and then back to an object.
-const myPC = { name: 'Annabel', age: 1 };
+const myPC = { name: 'Annabel', age: 1 }; 
 const myPCInfo = JSON.parse(JSON.stringify(myPC));
 
 // d. Using Object.create(): This method creates a new object with the specified prototype object and properties.
