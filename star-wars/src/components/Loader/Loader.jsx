@@ -2,7 +2,6 @@ import React from "react";
 import LoadingSpinner from "../../assets/icon/loader.svg";
 import "./Loader.scss";
 
-//Loader
 const Loader = () => {
   return (
     <div className="loaderStyle">
