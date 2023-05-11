@@ -1,20 +1,21 @@
 import React from "react";
 import "./Movie.scss";
 import formatDate from "../../helpers/formatDate";
+import { Link } from "react-router-dom";
 
-const Movie = ({ title, release_date, opening_crawl }) => {
+const Movie = ({ title, releaseDate, description, id }) => {
   return (
     <div className="movie">
       <div className="movie__inner-box">
         <div className="movie__title">
           <h3>
-            <a href="#">{title}</a>
+            <Link to={`/movie/${id}`}>{title}</Link>
           </h3>
-          <span>{formatDate(release_date)}</span>
+          <span>{formatDate(releaseDate)}</span>
         </div>
-        <p className="movie__details">{opening_crawl.substring(0, 260)}...</p>
+        <p className="movie__details">{description.substring(0, 260)}...</p>
         <p className="movie__link">
-          <a href="#">More info</a>
+          <Link to={`/movie/${id}`}>More info</Link>
         </p>
       </div>
     </div>

@@ -1,24 +1,32 @@
 import React from "react";
+
+import MovieItem from "../Movie/Movie";
 import "./MovieList.scss";
-import Movie from "../Movie/Movie";
+import "../MovieDetail/MovieDetail.scss";
+import Loader from "../Loader/Loader";
 
-const MovieList = ({ data }) => {
+import useMovieList from "../../hooks/useMovieList";
+
+export default function MovieList() {
+  const { loading, movieList } = useMovieList();
+
   return (
-    <main className="movie-container">
-      <div className="movie-container__inner">
-        {data.results.map((item) => {
-          return (
-            <Movie
-              key={item.episode_id}
-              title={item.title}
-              release_date={item.release_date}
-              opening_crawl={item.opening_crawl}
+    <div className="container">
+      <div className="row">
+        {loading ? (
+          <Loader />
+        ) : (
+          movieList.map((movie) => (
+            <MovieItem
+              key={movie.id}
+              id={movie.id}
+              description={movie.description}
+              releaseDate={movie.releaseDate}
+              title={movie.title}
             />
-          );
-        })}
+          ))
+        )}
       </div>
-    </main>
+    </div>
   );
-};
-
-export default MovieList;
+}
